@@ -22,3 +22,23 @@ New player
 QOF
 Relevancy of question order
 Algorithm to assign players to questions
+
+
+Classes
+
+Game
+output <question>
+players <Player>
+current_number int
+rounds int
+
+printQuetstion()
+nextQuestion()
+prevQuestion()
+
+Player
+name
+
+Question(Player player)
+rawOutput <String>
+finalOutput <String>
