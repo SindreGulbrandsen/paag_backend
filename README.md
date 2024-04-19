@@ -9,36 +9,35 @@ Randomize questions
 Create different game length
 Be able to use the same code for different game modes
 
-Content
-Players
-Questions
-
-Functions
-Return a string for a question
-Next question
-Previous question
-New player
-
-QOF
-Relevancy of question order
-Algorithm to assign players to questions
-
 
 Classes
 
-Game
-output <question>
-players <Player>
-current_number int
-rounds int
-
-printQuetstion()
+*Game (raw_output: mutableList<String>)
+printQuestion(): String
 nextQuestion()
 prevQuestion()
+checkGameEnd(): Bool
+addPlayer()
+removePlayer()
 
-Player
+output mutableListOf<Question>
+players mutableListOf<Player>
+current int
+rounds int
+raw_output mutableListOf<String>
+
+*Player
+getName(): String
 name
 
-Question(Player player)
-rawOutput <String>
-finalOutput <String>
+*Question(questionText: String, players: MutableList<Player>)
+generateQuestionText(qt: String): String
+extractSips(word_list: List<String>): Int
+
+
+questionText String
+players mutableListOf<Player>
+color int
+sips int
+player_identifiers private list<String>
+
