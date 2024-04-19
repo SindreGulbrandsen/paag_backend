@@ -13,7 +13,7 @@ class Game (raw_output: MutableList<String> = mutableListOf()){
         players = mutableListOf(Player("Player 1"), Player("Player 2"), Player("Player 3"), Player("Player 4"), Player("Player 5"))
         raw_output.shuffle()
         raw_output.add("Game Over")
-        output.add(Question(raw_output[current],mutableListOf<Player>(players.random())))
+        output.add(Question(raw_output[current],players))
     }
 
     fun printQuestion(): String{
@@ -26,7 +26,7 @@ class Game (raw_output: MutableList<String> = mutableListOf()){
     fun nextQuestion(){
         if (!checkGameEnd()){
             current++
-            output.add(Question(raw_output[current], mutableListOf(players.random())))
+            output.add(Question(raw_output[current], players))
         }
     }
     fun prevQuestion(){
