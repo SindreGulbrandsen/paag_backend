@@ -10,7 +10,7 @@ Create different game length
 Be able to use the same code for different game modes
 
 
-Classes
+# Classes
 
 ## Game (raw_output: mutableList<String>)
 printQuestion(): String
