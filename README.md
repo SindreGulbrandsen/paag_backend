@@ -12,7 +12,7 @@ Be able to use the same code for different game modes
 
 Classes
 
-*Game (raw_output: mutableList<String>)
+## Game (raw_output: mutableList<String>)
 printQuestion(): String
 nextQuestion()
 prevQuestion()
@@ -26,11 +26,11 @@ current int
 rounds int
 raw_output mutableListOf<String>
 
-*Player
+## Player
 getName(): String
 name
 
-*Question(questionText: String, players: MutableList<Player>)
+## Question(questionText: String, players: MutableList<Player>)
 generateQuestionText(qt: String): String
 extractSips(word_list: List<String>): Int
 
