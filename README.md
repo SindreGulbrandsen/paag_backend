@@ -13,31 +13,31 @@ Be able to use the same code for different game modes
 # Classes
 
 ## Game (raw_output: mutableList<String>)
-printQuestion(): String
-nextQuestion()
-prevQuestion()
-checkGameEnd(): Bool
-addPlayer()
-removePlayer()
+printQuestion(): String  
+nextQuestion()  
+prevQuestion()  
+checkGameEnd(): Bool  
+addPlayer()  
+removePlayer()  
 
-output mutableListOf<Question>
-players mutableListOf<Player>
-current int
-rounds int
-raw_output mutableListOf<String>
+output mutableListOf<Question>  
+players mutableListOf<Player>  
+current int  
+rounds int  
+raw_output mutableListOf<String>  
 
 ## Player
-getName(): String
-name
+getName(): String  
 
-## Question(questionText: String, players: MutableList<Player>)
-generateQuestionText(qt: String): String
-extractSips(word_list: List<String>): Int
+name int  
 
+## Question(questionText: String, players: MutableList<Player>)  
+generateQuestionText(qt: String): String  
+extractSips(word_list: List<String>): Int  
 
-questionText String
-players mutableListOf<Player>
-color int
-sips int
-player_identifiers private list<String>
+questionText String  
+players mutableListOf<Player>  
+color int  
+sips int  
+player_identifiers private list<String>  
 
