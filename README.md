@@ -1,6 +1,10 @@
 # paag_backend
 This repo is to develop the paag backend code
 
+# TODO 
+- Create load from file functionallity for both android and ios
+- Create UI for both android and ios
+
 
 Requirements
 Load a set of questions
