@@ -4,7 +4,7 @@ This repo is to develop the paag backend code
 # TODO 
 - Create load from file functionallity for both android and ios
 - Create UI for both android and ios
-- Colors: Color pallete inspo: https://hookagency.com/blog/color-schemes/ | https://no.pinterest.com/pin/378302437451189011/ | https://coolors.co/
+- Colors: Color pallete inspo: https://hookagency.com/blog/color-schemes/ | https://no.pinterest.com/pin/378302437451189011/ | https://coolors.co/ (https://coolors.co/514b23-ef2d56-026bb1-d7bea8-23ce6b)
 
 
 Requirements
