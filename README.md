@@ -5,6 +5,7 @@ This repo is to develop the paag backend code
 - Create load from file functionallity for both android and ios (https://stackoverflow.com/questions/68191209/file-io-with-kotlin-multiplatform)
 - Create UI for both android and ios
 - Colors: Color pallete inspo: https://hookagency.com/blog/color-schemes/ | https://no.pinterest.com/pin/378302437451189011/ | https://coolors.co/ (https://coolors.co/514b23-ef2d56-026bb1-d7bea8-23ce6b)
+- Swipe to remove player: https://www.youtube.com/watch?v=PEH3XR51OaY&ab_channel=MkrDeveloper
 
 
 Requirements
